@@ -1,0 +1,33 @@
+.container{
+	background-color:lightred;
+}
+
+.funcpad { 
+  width: 100%;
+  table-layout: fixed;
+  border-collapse: collapse;
+}
+
+.funcpad button { 
+  width: 100%;
+}
+
+.numpad{
+	height: 60%;
+	width: 100%;
+	display: grid;
+	grid-template-columns: 20% 20% 20% 20% 20%;
+}
+
+.button{
+	margin: 5px;
+}
+.display-col{
+	display: block;
+	width: 100%;
+}
+
+.display{
+	float: right;
+	font-size: 5rem;
+}
